@@ -7,7 +7,6 @@
 
 body {
     font-family: "Trajan Pro Bold", serif;
-    background-size: cover;
     background: url("./res/ti10_background.mp4") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -30,7 +29,7 @@ body {
 .cont h1 {
     width: 225px;
     margin: 0 auto 8px 525px;
-    font-family: "Trajan Pro Bold";
+    font-family: "Trajan Pro Bold", serif;
     text-align: center;
     font-weight: normal;
     font-size: 80px;
@@ -89,7 +88,7 @@ body {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url('res/wk_icon.webp');
+    background-image: url('./res/wk_icon.webp');
     background-size: cover;
     margin-right: 10px;
 }
