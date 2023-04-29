@@ -69,7 +69,6 @@ body {
     margin-bottom: -10px;
     margin-left: 0;
     object-fit: fill;
-    border-radius: 50%;
     width: 550px; /* adjust the value as needed */
     height: auto; /* set the height to auto to maintain aspect ratio */
 }
