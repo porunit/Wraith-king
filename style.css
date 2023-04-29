@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Trajan Pro Bold';
+    src: url('fonts/sh.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: "Trajan Pro Bold", serif;
+    background-size: cover;
+    background: url("res/ti10_background.mp4") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em gray;
+    color: #F2F2F2;
+    font-size: 19px;
+}
+
+.title-header {
+    min-width: 550px;
+    height: 225px;
+    margin-bottom: -15px;
+    padding-top: 30px;
+    color: lightgray;
+}
+
+
+.cont h1 {
+    width: 225px;
+    margin: 0 auto 8px 525px;
+    font-family: "Trajan Pro Bold";
+    text-align: center;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 64px;
+    white-space: nowrap;
+}
+
+.gradient {
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em gray;
+    margin-bottom: -120px;
+    padding-bottom: -120px;
+}
+
+.title-naming {
+    width: 255px;
+    margin: 0 auto -50px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.overview {
+    margin-top: -75px;
+}
+
+.arcana {
+    max-width: 1600px;
+    margin: 0 auto 0 50px;
+    overflow: hidden;
+}
+
+.arcana img {
+
+    float: left;
+    margin-right: 50px;
+    margin-bottom: -10px;
+    margin-left: 0;
+    object-fit: fill;
+    border-radius: 50%;
+    width: 550px; /* adjust the value as needed */
+    height: auto; /* set the height to auto to maintain aspect ratio */
+}
+
+
+.arcana p {
+    margin-top: 60px;
+    max-width: 5px;
+    margin-right: -200px;
+}
+
+.arcana h5 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('res/wk_icon.webp');
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.description {
+    margin-top: -19px;
+    margin-right: 50px;
+}
