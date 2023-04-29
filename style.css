@@ -7,7 +7,7 @@
 
 body {
     font-family: "Trajan Pro Bold", serif;
-    background: url("./res/ti10_background.mp4") no-repeat center center fixed;
+    background: url("/res/ti10_background.mp4") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
