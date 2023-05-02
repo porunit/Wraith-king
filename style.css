@@ -5,7 +5,12 @@
     font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    min-height: 100vh;
     font-family: "Trajan Pro Bold", serif;
     background: url("/res/pop.png") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -15,6 +20,7 @@ body {
     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em gray;
     color: #F2F2F2;
     font-size: 19px;
+    scroll-behavior: smooth;
 }
 
 .title-header {
@@ -96,4 +102,55 @@ body {
 .description {
     margin-top: -19px;
     margin-right: 50px;
+}
+
+.items-button {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.next-page-items {
+    height: calc(100vh); /* Задайте высоту, равную разнице между высотой экрана и высотой других элементов */
+    position: relative; /* Задайте относительное позиционирование */
+    top: 10vh; /* Сдвиньте контейнер на высоту одного экрана */
+    min-height: 100%;
+    overflow: auto;
+}
+
+.down {
+    position: absolute;
+    bottom: 5vh;
+    display: block;
+    opacity: 0.5;
+    font-size: 60px;
+}
+
+.next-page-items.visible {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+}
+
+.down-row {
+    transition: opacity 0.5s, transform 0.5s;
+    font-size: 60px;
+    margin: auto 50% 2%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.down-row:hover {
+    opacity: 1;
+    transform: translateY(5px);
+    cursor: grab;
 }

@@ -1,0 +1,8 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "dependencies": {
+    "scroll-behavior-polyfill": "^2.0.13",
+    "smoothscroll-polyfill": "^0.4.4"
+  }
+}
