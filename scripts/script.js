@@ -1,8 +1,3 @@
-import polyfill from '/Users/porunit/Desktop/Web/front/node_modules/smoothscroll-polyfill';
-polyfill()
-
-
-
 const itemButton = document.querySelector('#arrow-to-items');
 const itemsContainer = document.querySelector('.next-page-items');
 console.log(itemsContainer);

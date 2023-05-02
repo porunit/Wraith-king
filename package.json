@@ -2,7 +2,15 @@
   "name": "front",
   "version": "1.0.0",
   "dependencies": {
+    "jquery": "^3.6.4",
     "scroll-behavior-polyfill": "^2.0.13",
     "smoothscroll-polyfill": "^0.4.4"
-  }
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
